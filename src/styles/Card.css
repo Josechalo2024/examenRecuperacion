@@ -1,0 +1,28 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+  }
+  .card img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .details-button {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .details-button:hover {
+    background-color: #0056b3;
+  }
+  
